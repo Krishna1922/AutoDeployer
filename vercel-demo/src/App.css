@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@555&display=swap');
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+body{
+  font-family: Fira Code;
+}
+
+.main-head{
+  /* center the div */ 
+  margin-top: 20px;
+  padding: 20px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.text-box{
+  padding: 8px 10px;
+}
+.heading{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.button{
+  margin: 20px 0;
+  padding: 9px 5px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  border-radius: 5px solid black;
+  font-family: Fira Code;
+
+}
+.responsive-paragraph{
+  text-align: center;  
+display: flex;
+
+
+}

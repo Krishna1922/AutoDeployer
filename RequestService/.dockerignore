@@ -1,0 +1,30 @@
+# Python
+venv/
+.env
+__pycache__/
+*.py[cod]
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Git
+.git/
+.gitignore
+
+# Logs and temp files
+*.log
+tmp/
+data/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+
+# Frontend
+node_modules/
+
+# Build artifacts
+dist/
+build/
